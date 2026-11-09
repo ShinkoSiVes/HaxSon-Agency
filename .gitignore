@@ -1,0 +1,32 @@
+# Allowlist: nothing is published unless it is listed here.
+/*
+
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/SETUP.md
+!/LICENSE
+!/local.example.md
+!/scripts/
+
+!/arbiter/
+!/artificer/
+!/crystal-lake/
+!/enchiridion/
+!/excalibur/
+!/oath/
+!/riddlemaster/
+!/scribe/
+!/wizard/
+
+# Machine-only and private, wherever they appear.
+local.md
+*.local.*
+.leak-denylist
+.env
+.env.*
+*.log
+node_modules/
+claude-written.md
+code-style.md
+user-git-emails.md
